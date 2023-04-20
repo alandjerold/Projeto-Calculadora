@@ -5,252 +5,68 @@
     text-align: center ;
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-div{
-    text-decoration: strong;
-}
+
 body,html{
     position: relative;
     width: 100vw;
     height: 100vh;
 
 }
-#td{
-    position: absolute;
-    z-index: 3;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-80px);
-    
-}
+
 #capa{
     position: absolute;
     background-color: black;
     width: 300px;
-    height: 300px;
+    height: 380px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 30px;
     z-index: 1;
 }
-#n0{
+table{
+    
     position: absolute;
-    background-color: yellow;
-    width: 50px;
-    height: 30px;
-    z-index: 2;
     top: 50%;
     left: 50%;
-    transform: translate(-123px, 180px);
-    border-radius: 20px;
-    line-height: 30px;
-    border: 2px solid white;
+    transform: translate(-50%, -30%);
+   
 }
-#ponto{
-    position: absolute;
-    background-color: yellow;
+button{
     width: 50px;
-    height: 30px;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-60px, 180px);
-    border-radius: 20px;
-    line-height: 30px;
-    border: 2px solid white;
+    height: 50px;
+    
+    
+}
+#n0{
+    width: 105px;
     
 }
 #ig{
-    position: absolute;
-    background-color: yellow;
-    width: 50px;
-    height: 30px;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(3px, 180px);
-    line-height: 30px;
-    border: 2px solid white;
-    border-radius: 20px;
+    height: 102px;
 }
-#ma{
-    position: absolute;
-    background-color: yellow;
-    width: 50px;
-    height: 30px;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(66px, 180px);
-    line-height: 30px;
-    border: 2px solid white;
-    border-radius: 20px;
-    margin-right: 10%;
-    
+h1{
+    margin-top: 20px;
+    font-size: 30px;
+    z-index: 4;
+    color: white;
 }
-#n1{
+ p{
+    font-size: 20px;
+ }
+#tela{
+    display: block;
     position: absolute;
-    background-color: yellow;
-    width: 50px;
-    height: 30px;
-    z-index: 2;
     top: 50%;
     left: 50%;
-    transform: translate(-123px, 140px);
-    border-radius: 20px;
-    line-height: 30px;
-    border: 2px solid white;
-}
-#n4{
-    position: absolute;
-    background-color: yellow;
-    width: 50px;
+    transform: translate(-50%, -370%);
+    width: 250px;
     height: 30px;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-123px, 100px);
-    border-radius: 20px;
-    line-height: 30px;
-    border: 2px solid white;
-}
-#n7{
-    position: absolute;
-    background-color: yellow;
-    width: 50px;
-    height: 30px;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-123px, 60px);
-    border-radius: 20px;
-    line-height: 30px;
-    border: 2px solid white;
-}
-#n2{
-    position: absolute;
-    background-color: yellow;
-    width: 50px;
-    height: 30px;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-60px, 140px);
-    border-radius: 20px;
-    line-height: 30px;
-    border: 2px solid white;
-    
-}
-#n5{
-    position: absolute;
-    background-color: yellow;
-    width: 50px;
-    height: 30px;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-60px, 100px);
-    border-radius: 20px;
-    line-height: 30px;
-    border: 2px solid white;
-}
-#n8{
-    position: absolute;
-    background-color: yellow;
-    width: 50px;
-    height: 30px;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-60px, 60px);
-    border-radius: 20px;
-    line-height: 30px;
-    border: 2px solid white;
-}
-#n9{
-    position: absolute;
-    background-color: yellow;
-    width: 50px;
-    height: 30px;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(3px, 60px);
-    border-radius: 20px;
-    line-height: 30px;
-    border: 2px solid white;
-}
-#n6{
-    position: absolute;
-    background-color: yellow;
-    width: 50px;
-    height: 30px;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(3px, 100px);
-    border-radius: 20px;
-    line-height: 30px;
-    border: 2px solid white;
-}
-#n3{
-    position: absolute;
-    background-color: yellow;
-    width: 50px;
-    height: 30px;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(3px, 140px);
-    border-radius: 20px;
-    line-height: 30px;
-    border: 2px solid white;
-    
-}
-#me{
-    position: absolute;
-    background-color: yellow;
-    width: 50px;
-    height: 30px;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(66px, 140px);
-    line-height: 30px;
-    border: 2px solid white;
-    border-radius: 20px;
-    margin-right: 10%;
-    
-}
-#mu{
-    position: absolute;
-    background-color: yellow;
-    width: 50px;
-    height: 30px;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(66px, 100px);
-    line-height: 30px;
-    border: 2px solid white;
-    border-radius: 20px;
-    margin-right: 10%;
-    
-}
-#di{
-    position: absolute;
-    background-color: yellow;
-    width: 50px;
-    height: 30px;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(66px, 60px);
-    line-height: 30px;
-    border: 2px solid white;
-    border-radius: 20px;
-    margin-right: 10%;
-    
+    background-color: white;
+    z-index: 3;
+   
+    overflow: hidden;
+
 }
